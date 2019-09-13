@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>My Webpage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  background-color: grey;
+}
+
+</style>
+<body>
+
+
+
+<!-- Navbar -->
+<div class="w3-top">
+	<div class="w3-bar w3-black w3-card">
+  
+		<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" 
+							onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+														
+		<a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>  
+		
+<!--
+		<div class="w3-dropdown-hover w3-hide-small">
+		  <div class="w3-dropdown-content w3-bar-block w3-card-10">
+				<a href="#(awesome | amazing)" class="w3-bar-item w3-button w3-padding-large w3-hide-small">(awesome | amazing)</a>
+				<a href="#(ongoing)" class="w3-bar-item w3-button w3-padding-large w3-hide-small">(ongoing)</a>
+		  </div>
+		</div>
+
+
+		<div class="w3-dropdown-hover w3-hide-small">
+		  <div class="w3-dropdown-content w3-bar-block w3-card-4">
+				<a href="#CARTOONS|STORIES" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CARTOONS|STORIES</a>
+				<a href="#NOVELS|STORIES" class="w3-bar-item w3-button w3-padding-large w3-hide-small">NOVELS|STORIES</a>
+		  </div>
+		</div>
+
+-->
+
+		<a href="#UPCOMING" class="w3-bar-item w3-button w3-padding-large w3-hide-small">UPCOMING</a>
+		<a href="#MANGA" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MANGA</a>
+		<a href="#BOOKS|CARTOONS" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BOOKS|CARTOONS</a>
+		<a href="#AWE ANIME" class="w3-bar-item w3-button w3-padding-large w3-hide-small">AWE ANIME</a>
+		<a href="#RC ANIME" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RC ANIME</a>
+		<a href="#BL ANIME" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BL ANIME</a>
+		<a href="#EC ANIME" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EC ANIME</a>
+		<a href="#MOVIES" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MOVIES</a>
+		<a href="#SERIES" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERIES</a>
+		<a href="#CELEBRITIES" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CELEBRITIES</a>		
+
+	</div>
+</div>
+
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MORE</a>
+  
+		<a href="#UPCOMING" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">UPCOMING</a>
+		<a href="#MANGA" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MANGA</a>
+		<a href="#BOOKS|CARTOONS" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BOOKS|CARTOONS</a>
+		<a href="#AWE ANIME" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">AWE ANIME</a>
+		<a href="#RC ANIME" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RC ANIME</a>
+		<a href="#BL ANIME" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BL ANIME</a>
+		<a href="#EC ANIME" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EC ANIME</a>
+		<a href="#MOVIES" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MOVIES</a>
+		<a href="#SERIES" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERIES</a>
+		<a href="#CELEBRITIES" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CELEBRITIES</a>		
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Page content -->
+
+
+
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+
+  <div class="w3-container w3-content  w3-padding-64" style="max-width:800px" id="UPCOMING">
+			<p class="w3-justify">
+				  <summary class="w3-center">
+					MORE SEASONS ARE COMING!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+					<br/>
+					<br/>
+				  </summary>
+								<details> 
+								  <summary>
+									(anime)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+arslan senki
+attack on titan
+sword art online(sao) 
+seven(7) deadly sins
+akatsuki no yona
+shokugeki no souma
+chihayafuru
+yakusoku no neverland
+haikara-san ga tooru movie 2: benio, hana no 17-sai  (haikara-san: here comes miss modern)
+
+
+
+									</pre>
+								</details>
+								
+
+								<details> 
+								  <summary>
+									(movies)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+marvel
+dc
+
+
+									</pre>
+								</details>
+
+
+								<details> 
+								  <summary>
+									(series)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+
+
+
+									</pre>
+								</details>
+
+
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+  
+  
+  <div class="w3-container w3-content  w3-padding-64" style="max-width:800px"  id="MANGA">
+			<p class="w3-justify">
+				  <summary class="w3-center">
+					MANGA!!!!!!!!!!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+				  </summary>
+
+
+		<br /> 
+		<br /> 
+
+
+								<details id="(awesome | amazing)"> 
+								  <summary>
+									(awesome | amazing)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+liar game
+etaernal sabbath
+gamble fish
+arachnid
+dengeki daisy
+transparent cohabitation
+mission of love (watashi ni xx shinasai)
+last game
+ghost hunt 2 
+kaguya-sama wa kokurasetai
+
+
+
+
+									</pre>
+								</details>
+
+
+
+								<details id="(ongoing)"> 
+								  <summary>
+									(ongoing)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+btooom 86 
+honey hunt 25
+hare kon 59 
+brawling go 40 
+kedamono kareshi 19 
+yuki no kuni kara 3
+oiran chirashi 3
+nisekoi doumei 96
+akaiito (miyasaka kaho)  31
+honey hunt 25
+kore wa koi no hanashi 41
+ecstasy hearts 31
+
+
+
+									</pre>
+								</details>
+
+								
+
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+
+  
+  <div class="w3-container w3-content  w3-padding-64" style="max-width:800px"  id="BOOKS|CARTOONS">
+			<p class="w3-justify">
+				  <summary class="w3-center">
+					BOOKS|CARTOONS!!!!!!!!!!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+				  </summary>
+
+		<br /> 
+		<br /> 
+
+
+
+								<details id="CARTOONS|STORIES"> 
+								  <summary>
+					CARTOONS|STORIES|COMICS
+								  </summary>
+									<pre>
+
+
+*gopal bhar
+*tenali raman
+*birbal
+*Mullah Nasiruddin
+*nonte fonte
+*Thakurmar Jhuli by Dakshinaranjan Mitra Majumder
+*panchatantra
+*vikram betaal
+*chacha chowdhuri
+*the adventure of tintin
+*aesop's fables
+
+
+*shin chan
+*doraemon
+*meena
+*tom n jerry
+*mr bean
+*popeye
+
+
+
+
+									</pre>
+								</details>
+
+
+
+								<details id="NOVELS|STORIES"> 
+								  <summary>
+					NOVELS|STORIES
+								  </summary>
+									<pre>
+
+
+
+
+
+Sarat Chandra Chattopadhyay:
+*uponnash
+*devdas
+
+
+Bibhutibhushan Bandyopadhyay:
+Pather Panchali
+*Chander Pahar
+[Amazon Obhijaan] seq film
+
+
+Rabindranath Tagore:
+*chotogolpo 
+*uponnash
+
+
+*Kakababu (42 novels) by  Sunil Gangopadhyay
+
+
+Satyajit Ray:
+*Feluda stories/novels 
+*Professor Shanku stories
+Tarini khuro stories
+Bankubabur Bandhu
+
+
+Sharadindu Bandyopadhyay:
+*Byomkesh Bakshi - Satyanweshi 
+Boroda - Bhootanweshi
+Sadashib
+
+
+Humayun Ahmed:
+*Himu (21 novels)
+*Misir Ali(20 novels)
+Shubhro(6 novels)
+
+Muhammed Zafar Iqbal:
+*Children's literature [kishore  sahitya(teen fiction) uponnash]
+
+
+*Tin Goyenda by  Rakib Hasan & Shamsuddin Nawab
+
+*Pandab Goyenda by  Sasthipada Chattopadhyay
+
+
+*Tenida:
+Tenida Samagra Created by Narayan Gangopadhyay
+(Juvenile literature)
+Novels(5)
+	Charmurti (Bengali: চারমূর্তি)
+	Char Murtir Obhijan (Bengali: চারমূর্তির অভিযান)
+	Kombol Niruddesh (Bengali: কম্বল নিরুদ্দেশ)
+	Tenida Aar Sindhughotok (Bengali: টেনিদা আর সিন্ধুঘোটক)
+	Jhau-banglor Rahasyo (Bengali: ঝাউবাংলোর রহস্য)
+Short stories
+
+
+
+
+Arjun
+Mitinmashi
+Goyenda Colonel
+Rijuda by Buddhadeb Guha
+Ekenbabu Somogra by Sujan DasGupta
+GOYENDA GARGI KISHORE SAMAGRAA  by TAPAN BANDOPADHYAY
+
+Masud Rana:
+spy-thriller series 
+Qazi Anwar Hussain
+
+Dr. Nihar Ranjan Gupta (pen name'Banbhatta'):
+Kiriti Roy
+
+
+
+["Kakababu,Arjun and Colonel are more like adventure suspense thriller rather than ‘Detective’ stories. 
+All detective stories might be a suspense thriller but all suspense thrillers are not detective stories. 
+True ‘Detective’ characters are1) Byomkesh (with Ajit)2) Feluda (with Topshe)3) Kiriti (with Subrata)4) Shabor (with Nandalal)5) Jayanta (with Manik)
+No idea about Mitin Mashi though."]
+
+
+
+									</pre>
+								</details>
+
+								
+
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+
+  
+  <div class="w3-container w3-content  w3-padding-64" style="max-width:800px"  id="AWE ANIME">
+			<p class="w3-justify">
+				  <summary class="w3-center">
+					AWE ANIME!!!!!!!!!!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+				  </summary>
+
+
+		<br /> 
+		<br /> 
+
+								<details> 
+								  <summary>
+									(awesome | masterpiece)   (action | psycological  | strategy | adventure)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+arslan senki
+attack on titan
+death note
+monster  the monster with no name
+one outs
+banana fish
+mirai nikki
+gantz
+claymore
+yakusoku no neverland
+kuroko no basket
+shokugeki no souma
+sword art online(sao) 
+seven(7) deadly sins
+ghost hunt
+assasination classroom
+btooom
+highschool of the dead
+terror in resonance(zankyou no terror)	
+akatsuki no yona
+jyu-oh-sei
+shiki
+another
+psycic detective yakumo
+fullmetal alchemist 37\38
+tokyo ghoul  s2
+king of thorn (ibara no ou)   (movie)
+blame!  (movie)
+
+
+
+									</pre>
+								</details>
+
+
+								<details> 
+								  <summary>
+									(amazing)   (action | mystery | adventure)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+code breaker
+corpse party
+kaze no stigma
+strike the blood
+fairy tail    125\100
+
+
+devine gate
+mahouka koukou no rettousei(the irregular at magic high school)  15
+cowboy bebop  15
+trickster   19
+kill la kill 4
+the morose mononokean (fukigen na mononokean)  8/9
+
+
+
+									</pre>
+								</details>
+
+
+
+								<details> 
+								  <summary>
+									(special) (amazing)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+sakamoto desu ga?
+prison school
+yamada kun to 7 nin no majo
+prince of strides
+walkure romanze
+doukyonin wa hiza, tokidoki, atama no ue (my roommate is a cat)
+usagi drop
+
+
+
+									</pre>
+								</details>
+
+
+
+								<details> 
+								  <summary>
+									(special) (shoujo/josei) (amazing)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+chihayafuru
+orange
+relife
+norn9
+mermaid forest
+kimi no na wa (your name) (movie)
+nagi no asu kara (a lull in the sea)
+kaguya-sama wa kokurasetai
+
+
+
+									</pre>
+								</details>
+
+								
+								
+								<details> 
+								  <summary>
+									(special) (shounen/seinen) (amazing)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+mikakunin de shinkokei  (engaged to the unidentified)
+kotoura-san
+sankarea
+saikin, imouto no yousu ga chotto okashiinda ga (recently, my sister is unusual)
+
+
+
+									</pre>
+								</details>
+
+
+
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+
+  
+  <div class="w3-container w3-content  w3-padding-64" style="max-width:800px"  id="RC ANIME">
+			<p class="w3-justify">
+				  <summary class="w3-center">
+					RC ANIME!!!!!!!!!!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+				  </summary>
+
+		<br /> 
+		<br /> 
+
+								<details> 
+								  <summary>
+									(best) (shoujo/josei)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+kaichou wa maid sama
+kamisama hajimemashita 
+fruits basket
+kareshi kanojo no jijou (kare kano / his and her circumstances)
+ao haru ride
+kimi ni todoke
+in x boku ss
+itazura na kiss
+my little monster (tonari no kaibutsu-kun)
+skip beat
+snow white with red hair (akagami no shirayuki-hime)
+special a
+sukitte ii na yo
+wolf girl and black prince (ookami shoujo to kuro ouji )
+toradora  
+hatsukoi monster
+aishiteruze baby
+nijiiro days
+shugo chara
+earl and fairy
+ouran high school host club
+kobayashi ga kawai sugite tsurai!! (ova 2)
+
+
+
+									</pre>
+								</details>
+
+
+								<details> 
+								  <summary>
+									(shoujo/josei)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+nana
+nagareboshi lens
+peach girl
+bokura ga ita (we were there)
+akkun to kanojo (akkun and his girlfriend / my sweet tyrant)
+good morning call (ova 1)
+hiyokoi (special 1)
+haikara-san ga tooru movie 1: benio, hana no 17-sai  (haikara-san: here comes miss modern)
+vampire knight 8/9
+
+
+hachimitsu to clover (honey and clover) 5
+gekkan shoujo nozaki-kun 4/5
+itsudatte bokura no koi wa 10 cm datta (our love has always been 10 centimeters apart)  2
+zutto mae kara suki deshita.: kokuhaku jikkou iinkai   (movie)     seq
+suki ni naru sono shunkan wo.: kokuhaku jikkou iinkai   (movie)    seq  (unwatched)
+(x)  lovely complex
+
+
+
+									</pre>
+								</details>
+								
+								
+
+
+								<details> 
+								  <summary>
+									(shounen/seinen)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+nisekoi s3/2
+golden time
+school days
+sumomomo momomo  8/?
+okusama wa joshikousei  (my wife is a high school girl)   2
+
+
+
+									</pre>
+								</details>
+
+
+
+								<details> 
+								  <summary>
+									(shoujo/josei)  (reverse harem) 
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+hakuouki  season ALL
+dance with devils
+amnesia
+watashi ga motete dousunda (kiss him, not me!)
+yamato nadeshiko shichi henge (the wallflower)  8/9
+diabolic lovers  
+brothers conflict
+hiiro no kakera  8
+hana yori dango (f4 boys over flowers)
+
+
+(unwatched)
+
+
+uta no prince-sama
+kiniro no chord
+bonjour: koiaji patisserie
+
+
+
+									</pre>
+								</details>
+
+
+										
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+
+
+  <div class="w3-container w3-content  w3-padding-64" style="max-width:800px"  id="EC ANIME">
+		<br /> 
+		<br /> 
+			<p class="w3-justify">
+				  <summary class="w3-center">
+					EC ANIME!!!!!!!!!!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+				  </summary>
+
+		<br /> 
+		<br /> 
+
+								<details> 
+								  <summary>
+									(shoujo/josei)  (ecchi)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+25-sai no joshikousei
+omiai aite wa oshiego, tsuyoki na, mondaiji
+souryo to majiwaru shikiyoku no yoru ni (on a lustful night mingling with a priest)
+shuudengo, capsule hotel de, joushi ni binetsu tsutawaru yoru
+amai choubatsu: watashi wa kanshu senyou pet (sweet punishment: i'm the guard's personal pet)
+skirt no naka wa kedamono deshita (a predator in a skirt)
+
+
+boku wa imouto ni koi wo suru  (i love my younger sister)
+honey x honey drops  (mitsu x mitsu drops)
+kyou, koi wo hajimemasu  (today we start our love)
+
+
+
+									</pre>
+								</details>
+								
+
+								<details> 
+								  <summary>
+									(shounen/seinen)   (ecchi)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+kuzu no honkai (scums wish)
+b-gata h-kei
+koe de oshigoto
+Domestic na Kanojo
+
+
+joshiochi!: 2-kai kara onnanoko ga... futtekita (joshiochi! a girl fell from the 2nd floor)
+okusama ga seitokaichou
+shinmai maou no testament
+kiss x sis
+asa made jugyou chu (ova 1)
+hantsu x trashu (ova 3)
+
+
+manyuu hikenchou (magic breast secret sword scroll)
+seikon no qwaser
+sora no otoshimono
+to love-ru
+yosuga no sora 1/2
+high school dxd
+grisaia no rakuen
+grisaia
+kore wa zombie desuka
+cutie honey
+masou gakuen hxh
+rescue me (ova 1)
+kagaku na yatsura
+(x) call me tonight 
+
+
+
+									</pre>
+								</details>
+
+
+
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+
+  
+  <div class="w3-container w3-content  w3-padding-64" style="max-width:800px"  id="BL ANIME">
+		<br /> 
+		<br /> 
+			<p class="w3-justify">
+				  <summary class="w3-center">
+					BL ANIME!!!!!!!!!!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+				  </summary>
+								<details> 
+								  <summary>
+									(best)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+papa datte, shitai
+
+
+junjou romantica
+sekai-ichi hatsukoi
+love stage!!
+dakaretai otoko 1-i ni odosarete imasu (dakaichi -i'm being harassed by the sexiest man of the year)
+hitorijime my hero (my very own hero)
+
+
+	
+koisuru boukun (ova 2)
+seitokaichou ni chuukoku (ova 2)
+saigo no door wo shimero (close the last door) (ova 1)
+ikoku irokoi romantan (ova 2)
+tight-rope (ova 2)
+kirepapa (ova 2)
+
+
+
+									</pre>
+								</details>
+								
+
+								<details> 
+								  <summary>
+									(others)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+hyakujitsu no bara (maiden rose) (ova 2)
+papa to kiss in the dark (ova 2)
+okane ga nai (no money)  (ova 4)
+osakana wa ami no naka (fish in the trap) (ova 1)
+fujimi 2-choume koukyougakudan (fujimi block no. 2 symphony orchestra) (ova 1 (6 part) )
+
+
+boku wa konomama kaeranai  (i shall never return) (ova 1)
+yebisu celebrities 1st (ova 1)
+you're my love prize (finder series/viewfinder)  (ova 2)
+kachou no koi (ova 1)
+seikimatsu darling
+kono danshi sekika ni nayandemasu
+
+
+(x) houkago no shokuinshitsu (after school in the lounge) (ova 2)
+(x) hybrid child (ova 4)  (tragic love)
+(x) shiritsu araiso koutougakkou seitokai shikkoubu (araiso private high school student council executive committee) (ova 2)
+
+
+									</pre>
+								</details>
+
+
+								<details> 
+								  <summary>
+									(unwatched)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+super lovers
+6 lovers
+
+
+kizuna  (ova 2)
+sex pistols (love pistols)  (ova 2)
+
+
+mirage of blaze
+embracing love   (ova 2)
+embracing love : a cicada in winter   (ova 3)
+ai no kusabi   (ova 2)
+ai no kusabi 2012  (ova 4)
+
+
+
+
+									</pre>
+								</details>
+
+
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+  
+  
+  <div class="w3-container w3-content  w3-padding-64" style="max-width:800px"  id="MOVIES">
+		<br /> 
+		<br /> 
+			<p class="w3-justify">
+				  <summary class="w3-center">
+					MOVIES!!!!!!!!!!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+				  </summary>
+								<details> 
+								  <summary>
+									(english) (sequels)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+avengers 
+thor
+pirates of the caribbean 
+jurassic world
+the twilight
+the hunger game
+
+
+final destination
+spider-man
+wonder woman
+justice league
+the incredible hulk
+the chronicles of narnia   (unwatched) 2+3
+harry potter   
+
+
+
+									</pre>
+								</details>
+								
+
+								<details> 
+								  <summary>
+									(english)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+godzilla (1998)
+avatar
+king kong
+prince of persia
+dredd
+the island
+white house down
+journey 2 the mysterious island 2012 
+jumanji welcome to the jungle
+the karate kid 2010
+black water
+tomb raider
+braven (2018)
+killers (2010)
+rise of the planet of the apes
+2012 (2009)
+alice in wonderland 
+(x)  the lord of the rings
+(x)  petes dragon (2016)
+(x) how to train your dragon
+
+
+									</pre>
+								</details>
+
+
+								<details> 
+								  <summary>
+									(unwatched) (english)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+wrong turn 
+time travelers
+terminator
+transformers 
+guardians of the galaxy
+mission: impossible
+fast and furious
+ice age
+furious 
+aquaman
+zombieland
+upside down
+the rise of cobra
+
+
+
+									</pre>
+								</details>
+
+								
+								<details> 
+								  <summary>
+									(korean)|(japanese)|(chinese)|(thai)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+shaolin soccer
+mission of love (watashi ni xx shinasai) (movie)
+
+
+
+									</pre>
+								</details>
+
+
+								
+								<details> 
+								  <summary>
+									(fairy tale)(animated) 
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+tangled  2010
+tangled: before ever after  2017       (unwatched)
+rapunzel's tangled adventure (series)  2017    (unwatched)
+frozen    2013
+frozen 2    november 22, 2019   (unwatched)
+brave  2012 
+moana   2016 
+pocahontas 1995
+pocahontas ii: journey to a new world 1998  
+mulan  1998
+mulan 2  2004  
+the little mermaid  1989
+the little mermaid ii: return to the sea   2000
+the little mermaid: ariel's beginning  2008       (unwatched)
+cinderella 1950
+cinderella 1995  (writer orlando corradi)
+cinderella ii: dreams come true  2002
+cinderella iii: a twist in time  2007
+snow white and the seven dwarfs  1937
+sleeping beauty   1959
+beauty and the beast 1991
+little red riding hood   1995
+aladdin 1992
+aladdin and the king of thieves  1996     (unwatched)
+robin hood   1973
+puss in boots  2011
+sinbad legend of the seven seas   2003
+the prince of egypt (1998)
+
+
+
+hercules 1997
+the magic riddle
+enchanted mountain
+the legend of atlantis
+twelve months
+
+
+
+									</pre>
+								</details>
+								
+								
+								<details> 
+								  <summary>
+									(animated) 
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+rise of the guardians  2012
+throne of elves
+king of thorn
+blame!
+
+
+
+									</pre>
+								</details>
+								
+								
+								<details> 
+								  <summary>
+									(unwatched)(animated) (downloaded)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+pinocchio   1940
+lady and the tramp   1955
+alice in wonderland  1951
+the jungle book (mowgli)  1967
+the jungle book 2  (mowgli)  2003
+howl's moving castle
+tarzan 1999
+
+
+the road to el dorado (2000)
+treasure planet (2002)
+the swan princess a royal family tale (2014)
+the secret of nimh (1982)
+the aristocats (1970)
+spirit stallion of the cimarron 2002
+lilo and stitch (2002)
+eight crazy nights 2002
+bambi (1942)
+epic (2013)
+godzilla planet of the monsters (2017)
+harlock space pirate 2013
+wings of honneamise (1987)
+
+
+
+
+									</pre>
+								</details>
+								
+								
+								<details> 
+								  <summary>
+									(unwatched)(animated) 
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+the prophet (2014)
+the nutcracker prince  1990
+the princess and the frog   2009
+peter pan
+
+
+the black cauldron
+the snow queen
+the snow queen 2
+the fox and the hound
+atlantis: the lost empire
+hoodwinked too! hood vs. evil
+joseph: king of dreams
+corpse party
+the little vampire 3d
+
+
+
+									</pre>
+								</details>
+								
+								
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+  
+ 
+  <div class="w3-container w3-content  w3-padding-64" style="max-width:800px"  id="SERIES">
+		<br /> 
+		<br /> 
+			<p class="w3-justify">
+				  <summary class="w3-center">
+					SERIES!!!!!!!!!!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+				  </summary>
+								<details> 
+								  <summary>
+									(animated) 
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+the walking dead game s3
+avatar the last airbender
+avatar: the legend of korra
+final fantasy vii: advent children
+
+
+
+									</pre>
+								</details>
+								
+
+								<details> 
+								  <summary>
+									(english)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+game of thrones
+breaking bad 
+the walking dead  s9 e1
+the lost world (1999)  25+
+two and a half men  s1e2  s9-s12e1
+one tree hill
+13 reasons why  s1
+13 reasons why  s2 (unwatched)
+prison break  (unwatched)
+arrow  (unwatched)
+
+
+
+									</pre>
+								</details>
+
+
+								<details> 
+								  <summary>
+									(teen)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+drake & josh
+mr bean
+best of luck nikki
+suite life of karan and kabir
+
+
+
+									</pre>
+								</details>
+
+								
+								<details> 
+								  <summary>
+									(youngster)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+miley jab hum tum
+dill mill gayye
+dil dosti dance
+d4 get up and dance (let's dance)
+o gujariya
+sadda haq – my life my choice
+
+
+
+									</pre>
+								</details>
+
+								
+								<details> 
+								  <summary>
+									(serial)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+geet – hui sabse parayi
+jugni chali jalandhar
+saraswatichandra      ??!
+dekha ek khwaab 100+
+yeh hai mohabbatein
+kokhono megh kokhono bristy
+
+
+
+									</pre>
+								</details>
+
+								
+								<details> 
+								  <summary>
+									(historical)  
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+jodha akbar  148
+maharana pratap  465
+tenali rama  398
+
+
+
+									</pre>
+								</details>
+
+								
+								<details> 
+								  <summary>
+									(religious)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+mahakali — anth hi aarambh hai  24-12-17
+devon ke dev...mahadev
+mahabharat (2013)
+krishna (1993)
+ramayan (1987)
+
+
+
+									</pre>
+								</details>
+
+								
+								<details> 
+								  <summary>
+									(korean)|(japanese)|(chinese)|(thai)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+hana yori dango (f4 boys over flowers)
+raeng tawan 8/9
+hidden identity 6/?
+skip beat
+mission of love (watashi ni xx shinasai) (movie)
+
+
+
+									</pre>
+								</details>
+
+								
+								<details> 
+								  <summary>
+									(episode/story)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+adalat
+cid
+ssshhhh...koi hai
+fear files: darr ki sacchi tasvirein
+gumrah
+savdhaan india
+
+mtv unplugged
+mtv webbed
+mtv big f
+mtv secret diaries
+mtv campus diaries
+
+
+
+									</pre>
+								</details>
+
+								
+								<details> 
+								  <summary>
+									(reality)
+									<br/>
+									<br/>
+								  </summary>
+									<pre>
+
+
+fear factor: khatron ke khiladi
+bigg boss
+dare to dance ??!
+
+mtv roadies
+mtv splitsvilla
+mtv love school
+mtv india's next top model
+
+
+
+									</pre>
+								</details>
+
+								
+								
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+  
+  
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px"  id="CELEBRITIES">
+			<p class="w3-justify">
+				<details> 
+				  <summary>
+					CELEBRITIES!!!!!!!!!!!!!!
+					<br/>
+					-----------------------------------------------
+					-----------------------------------------------
+					-----------------------------------------------
+					<br/>
+				  </summary>
+					<pre>
+
+					
+
+vidyut jamwal
+Kit Harington
+Jason Momoa
+Tom Payne
+ashton kutcher
+chris hemsworth
+chris pratt
+taylor lautner
+rajat tokas
+vivian dsena
+varun sood
+kim bum
+siwon
+
+arushi dutta
+ashish bhatiya
+
+prince narula
+gurmeet rehal
+martina thariyan
+benafsha soonawalla
+priyank
+basheer
+kavya khurana
+yukti arora
+shagun pandey
+shruti sinha
+samyuktha hegde
+steffi cyrill
+		
+		
+		
+-------GOT-------
+	
+Emilia Clarke			Daenerys Targaryen
+Kit Harington			Jon Snow
+Rose Leslie				Ygritte
+Sophie Turner			Sansa Stark	
+Maisie Williams			Arya Stark	
+Richard Madden			Robb Stark		
+Isaac Hempstead Wright	Bran Stark
+Jason Momoa	    		Khal Drogo		
+Jack Gleeson			Joffrey Baratheon
+Michiel Huisman[c]		Daario Naharis
+Natalie Dormer			Margaery Tyrell		
+Gwendoline Christie		Brienne of Tarth		
+Joe Dempsie				Gendry
+
+
+
+
+
+
+					</pre>
+				</details>
+			</p>
+		<br /> 
+		<br /> 
+  </div>
+
+  
+
+  
+</div>
+
+<!-- End Page Content -->
+
+
+
+	
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-44 w3-center w3-opacity w3-black w3-xlarge w3-bottom">
+  <p class="w3-medium">My Web</p>
+</footer>
+
+
+<script>
+
+
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+</script>
+
+</body>
+</html>
+
+
